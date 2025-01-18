@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.main{
+    width: 100%;
+    background-color: #131314;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.intro{
+    margin-top: 60px;
+    color: white;
+
+    width: 55%;
+}
+.name{
+    font-size: 35px;
+}
+.name_title{
+    color: #FFC700;
+    font-weight: 700;
+    font-size: 20px;
+}
+.About{
+    width: 55%;
+    color: white;
+
+}
+.name_about{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.tech_link{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+.tech_link1{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.tech_link1:hover{
+    color: #FFC700;
+
+}
+.github_link:hover{
+    color: #FFC700;
+}
+.intro_para{
+    color: #AEACAE;
+}
+.experi_name{
+    font-size: 25px;
+}
+.Experi{
+    margin-top: 20px;
+}
+.add_experi{
+    border: 2px solid #2E3033;
+    min-height: 300px;
+    width: 100%;
+}
+.skill{
+    margin-top: 20px;
+}
+
+.all_skills{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.skill_name{
+    font-size: 25px;
+}
+.projects{
+    margin-top: 20px;
+    width: 100%;
+}
+.project_name{
+    font-size: 25px;
+}
+.project1{
+    border: 2px solid #2E3033;
+    border-radius: 5px;
+   
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+}
+.project1:hover{
+    background-color: #1E1E1F;
+}
+.contact_name{
+    font-size: 25px;
+}
+.contact{
+    margin-top: 20px;
+}
+.mailme{
+    color:#FFC700;
+    text-decoration: none;
+}
+.footer{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.footer_text{
+    color: #AEACAE;
+    font-size: 16px;
+}
+.contact_para{
+    color: #AEACAE;
+}
+.pro12{
+    width: 300px;
+    border-radius: 2px;
+}
+.pro111{
+    color: #AEACAE;
+    font-size: 14px;
+}
+.projectdetail{
+    color: #9ca3af;
+    padding: 5px;
+    font-size: 14px;
+}
+.pts{
+    font-size: 13px;
+    color: black;
+    border-radius: 4px;
+    padding:2px 2px;
+    font-weight: 500;
+    background-color: white;
+}
+.projectlink1{
+    margin-top: 5px;
+}
+.projecthref{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    padding: 2px;
+    text-align: center;
+    border-radius: 2px;
+}
+.pro122{
+    width: 220px;
+    border-radius: 2px;
+}
+.add_experi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.htmltime{
+    width: 80%;
+    color: #AEACAE;
+    padding: 5px;
+    
+}
+.htmltime:hover{
+    background-color:#1E1E1F;
+}
+.htmltimeline{
+    font-size: 14px;
+}
+.htmltext{
+    color: white;
+}
+.htmldetail{
+    font-size: 13px;
+}
+.tech_link{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:574px) {
+    .About{
+        width: 80%;
+    }
+    .pro12{
+        display:none;
+    }
+    .pro122{
+        display: none;
+    }
+    .intro{
+        width: 80%;
+    }
+    .name12{
+        font-size: 6px;
+    }
+  }
+  @media screen and (max-width:1024px) {
+    .pro12{
+        display:none;
+    }
+    .pro122{
+        display: none;
+    }
+  }
